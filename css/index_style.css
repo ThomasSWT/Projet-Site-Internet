@@ -338,7 +338,6 @@ body {
     justify-content: flex-start;
     gap: 12px;
     z-index: 1;
-    font-weight: bold;
 }
 
         .mentions-tittle {
