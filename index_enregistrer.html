@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-	<title>Accueil</title>
+	<title>S'enregistrer</title>
 	<meta charset="UTF-8">
-	<link rel="stylesheet" href="s'enregistrer.css"/>
+	<link rel="stylesheet" href="style_enregistrer.css"/>
 	<link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
+
+
 
 <!-- Header -->
 <body>
@@ -31,9 +33,19 @@
 		</div>
 
 <!-- Main -->
-	<div class="Fond">
-		<img src="pexels-jung-hua-liu-1479622-30.jpeg">
+	<div class="fond">
+		<img class=fond src="TP Contenue en ligne/Images/background.png" alt="fondecran">
         </div>
 			<div class="rectangle-div">
-			<b class="inscription">Inscription</b>
+				<h2>Inscription</h2>
+				<form action="/action_page.php">
+					<label for="fname">E-Mail :</label><br>
+					<input type="text" id="fname" name="fname"><br>
+					<label for="lname">Mot de passe :</label><br>
+					<input type="text" id="lname" name="lname"><br>
+
+					<div class="boutons"><input type="submit" value="Retour">
+					<input type="submit" value="S'enregistrer">
+				    </div>
+				  </form> 
 			</div>
