@@ -1,0 +1,417 @@
+body {
+    margin: 0;
+    line-height: normal;
+    font-family:'Inter';
+    }
+    
+/* Header */
+.header {
+    width: 100%;
+    position: relative;
+    background-color: rgba(244, 219, 92, 0.5);
+    border-bottom: 1px solid #d9d9d9;
+    box-sizing: border-box;
+    height: 104px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-content: center;
+    padding: 32px;
+    gap: 0px 24px;
+    text-align: left;
+    font-size: 16px;
+    color: #1e1e1e;
+}
+
+.logo-icon {
+    width: 89px;
+    position: relative;
+    border-radius: 50.5px;
+    height: 89px;
+    object-fit: cover;
+}
+
+.navigation-pill-list {
+    flex: 1;
+    height: 32px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-end;
+    gap: 8px;
+}
+        .navigation-pill {
+            border-radius: 8px;
+            background-color: #fff;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            padding: 8px;
+        }
+        .navigation-pill-list :hover {
+            background-color: #c9c9c9;
+        }
+        .title3 {
+            position: relative;
+            line-height: 100%;
+            opacity: 0.86;
+        } 
+
+/* Main */
+.hero-image {
+    width: 100%;
+    position: relative;
+    height: 920px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 160px 24px;
+    box-sizing: border-box;
+    background-image: url('Hero Image.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    text-align: center;
+    font-size: 72px;
+    color: #000;
+    font-family: Inter;
+}
+/*Catalogue*/
+.heading {
+    align-self: stretch;
+    position: relative;
+    letter-spacing: -0.02em;
+    line-height: 120%;
+    font-weight: 800;
+}
+        .subheading {
+            align-self: stretch;
+            position: relative;
+            font-size: 20px;
+            line-height: 120%;
+            color: #757575;
+        }
+       
+.line_cards {
+    align-self: stretch;
+    border-radius: 15px;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-content: center;
+    gap: 60px;
+}
+
+.card {
+    width: 375px;
+    border-radius: 15px;
+    background-color: #fff;
+    border: 1px solid #d9d9d9;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    padding: 24px;
+    gap: 24px;
+    min-width: 240px;
+}
+        .card_text{
+            align-self: stretch;
+            position: relative;
+            font-size: 16px;
+            line-height: 140%;
+            color: #757575;
+            padding-top: 10px;
+        }
+        .button-group {
+            width: 208px;
+            height: 40px;
+            display: none;
+        }
+        .card-grid-image {
+            width: 100%;
+            position: relative;
+            background-color: #fff4ca;
+            height: 1024px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: flex-start;
+            padding: 64px;
+            box-sizing: border-box;
+            gap: 48px;
+            text-align: left;
+            font-size: 24px;
+            color: #1e1e1e;
+            font-family: "Inter";
+        }
+
+/*Avis*/
+.text-heading1 {
+    position: relative;
+    letter-spacing: -0.02em;
+    line-height: 120%;
+    font-weight: 800;
+}
+.text-heading {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.star-icon {
+    width: 20px;
+    position: relative;
+    height: 20px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.rating {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 4px;
+}
+.text1 {
+    flex: 1;
+    position: relative;
+    line-height: 140%;
+}
+
+.subtitles {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-size: 16px;
+}
+.review-body {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 4px;
+}
+.avatar-icon {
+    width: 40px;
+    position: relative;
+    border-radius: 9999px;
+    height: 40px;
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+.title {
+    align-self: stretch;
+    position: relative;
+    line-height: 140%;
+    font-weight: 600;
+}
+.description {
+    align-self: stretch;
+    position: relative;
+    line-height: 140%;
+    color: #b3b3b3;
+}
+.info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 2px;
+}
+.avatar-block {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 12px;
+    font-size: 16px;
+    color: #757575;
+}
+.review-card {
+    flex: 1;
+    border-radius: 8px;
+    background-color: #fff;
+    border: 1px solid #d9d9d9;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 24px;
+    gap: 24px;
+    min-width: 240px;
+}
+.card-grid {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    gap: 48px;
+}
+.card-grid-reviews {
+    width: 100%;
+    position: relative;
+    background-color: #fffbeb;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 64px;
+    box-sizing: border-box;
+    gap: 48px;
+    text-align: left;
+    font-size: 24px;
+    color: #1e1e1e;
+    font-family: Inter;
+}
+
+/*Footer*/
+
+.footer {
+    width: 100%;
+    position: relative;
+    background-color: #1e1e1e;
+    border-top: 1px solid #d9d9d9;
+    box-sizing: border-box;
+    height: 351px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    padding: 32px 32px 160px;
+    gap: 16px;
+    text-align: left;
+    font-size: 16px;
+    color: #fff;
+    font-family: "Inter";
+}
+
+        .button-list {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: flex-start;
+            gap: 16px;
+            z-index: 0;
+        }
+
+            .socialmedia-icon {
+                width: 24px;
+                position: relative;
+                height: 24px;
+                overflow: hidden;
+                flex-shrink: 0;
+            }
+
+
+.mentions {
+    width: 220px;
+    margin: 0 !important;
+    position: absolute;
+    top: 35px;
+    left: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 12px;
+    z-index: 1;
+    font-weight: bold;
+}
+
+        .mentions-tittle {
+            align-self: stretch;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: flex-start;
+            padding: 0px 0px 16px;
+            font-weight: bold;
+        }
+
+            .text-strong {
+                position: relative;
+                font-size: 18px;
+                line-height: 140%;
+                font-family: "Inter";
+                color: #fff;
+                text-align: left;
+                font-weight: bold;
+            }
+
+        .list {
+            width: 300px;
+            position: relative;
+            height: 22px;
+        }
+
+        .list-item {
+            width: 201px;
+            position: relative;
+            font-size: 16px;
+            line-height: 140%;
+            font-family: Inter;
+            color: #fff;
+            text-align: left;
+            display: inline-block;
+        }
+
+        .list :hover {
+            color: rgba(244, 219, 92, 0.5)
+        }
+
+.decouverte {
+    width: 122px;
+    margin: 0 !important;
+    position: absolute;
+    top: 35px;
+    left: 585px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 12px;
+    z-index: 2;
+    font-weight: bold;
+
+}
+.contact {
+    width: 282px;
+    margin: 0 !important;
+    position: absolute;
+    top: 35px;
+    left: 791px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 12px;
+    z-index: 3;
+    font-weight: bold;
+
+}
+
