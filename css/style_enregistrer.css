@@ -72,16 +72,33 @@ body {
     background-size: cover;
     background-position: top;
     }
-    .inscription {
-        display: flex;
-        width: 253px;
-        height: 66px;
-        flex-direction: column;
-        justify-content: center;
-        }           
+
+h2 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 6em ;
+
+    
+}    
+
     .rectangle-div {
         width: 100%;
         position: relative;
         background-color: #bee4de;
         height: 993px;
+        
+    }
+
+    form{
+        position: relative;
+        width: 200px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10% ;
+        width: 10em ;
+    
+    }
+
+.boutons{
+margin-top: 20px;
 }
