@@ -15,7 +15,7 @@
 <!-- Header -->
 <body>
 	<div class="header">
-		<img class="logo-icon" src="TP Contenue en ligne/Images/logo 2.png" alt="logo">
+		<img class="logo-icon" src="images/logo-2.png" alt="logo">
 			<div class="navigation-pill-list">
 				<div class="navigation-pill">
 					<div class="title3">Accueil</div>
@@ -33,33 +33,43 @@
 		</div>
 
 <!-- Main -->
-	<div class="fond">
-		<img class=fond src="TP Contenue en ligne/Images/background.png" alt="fondecran">
-        </div>
+	<section class="banner">
+	<img src="images/background.png" alt="wallpaper"></section>
 			<div class="rectangle-div">
-				<h2>Inscription</h2>
-				<form action="/action_page.php">
-					<label for="fname">E-Mail :</label><br>
-					<input type="text" id="fname" name="fname"><br>
-					<label for="lname">Mot de passe :</label><br>
-					<input type="text" id="lname" name="lname"><br>
-
-					<div class="boutons"><input type="submit" value="Retour">
-					<input type="submit" value="S'enregistrer">
-				    </div>
-				  </form> 
+				<h1>Inscription</h1>
+				<form>
+					<label for="email">E-mail</label>
+					<input type="email" id="email" name="email" required>
+	
+					<label for="password">Mot de passe</label>
+					<input type="password" id="password" name="password" minlength="4" maxlength="12" required>
+					<small>Votre mot de passe doit contenir entre 4 et 12 caractères</small>
+	
+					<div class="checkbox-container">
+						<input type="checkbox" id="remember" name="remember">
+						<label for="remember">Se souvenir de moi</label>
+					</div>
+	
+					<div class="form-buttons">
+						<button type="button" class="back-button">Retour</button>
+						<button type="submit" class="submit-button">S'enregistrer</button>
+					</div>
+				</form>
 			</div>
+		</main>
+
+			
 <!-- Footer -->
 
 <div class="footer">
 	<div class="button-list">
-		  <img class="socialmedia-icon" alt="logo x" src="TP Contenue en ligne/Images/X Logo.png">
+		  <img class="socialmedia-icon" alt="logo x" src="images/X-Logo.png">
 		  
-		  <img class="socialmedia-icon" alt="logo instagram" src="TP Contenue en ligne/Images/Logo Instagram.png">
+		  <img class="socialmedia-icon" alt="logo instagram" src="images/Logo-Instagram.png">
 		  
-		  <img class="socialmedia-icon" alt="logo youtube" src="TP Contenue en ligne/Images/Logo YouTube.png">
+		  <img class="socialmedia-icon" alt="logo youtube" src="images/Logo-YouTube.png">
 		  
-		  <img class="socialmedia-icon" alt="logo linkedin" src="TP Contenue en ligne/Images/LinkedIn.png">
+		  <img class="socialmedia-icon" alt="logo linkedin" src="images/LinkedIn.png">
 	</div>
 
 
@@ -135,10 +145,10 @@
 					<div class="list-item">Fax : 01 63 45 78 52</div>
 			</div>
 			<div class="list">
-					<div class="list-item">dedal@gmail.com</div>
+					<div class="list-item"><a href="https://www.youtube.com/watch?v=xvFZjo5PgG0"target="_blank">dedal@gmail.com </a></div>
 			</div>
 			<div class="list">
-					<div class="list-item">10 Rue de la République, 75000, Paris</div>
+					<div class="list-item"><a href="https://www.google.fr/maps/place/10+Av.+de+la+R%C3%A9publique,+75011+Paris/@48.8665245,2.3617706,17z/data=!3m1!4b1!4m6!3m5!1s0x47e66e08126fa2a3:0x8df64dfbdee88e8a!8m2!3d48.8665246!4d2.3666415!16s%2Fg%2F11bw40n1v2?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D" target="_blank">10 Rue de la République, 75000, Paris</a></div> 
 			</div>
 		</div>
   </div>
