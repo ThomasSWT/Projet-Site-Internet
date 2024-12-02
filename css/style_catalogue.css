@@ -81,9 +81,88 @@ body {
                 font-family: Inter;
 }
 
-.card-grid image {
-    background-color: rgb (217, 147, 196, 0.3);
-}
+.gallery {
+    margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f3d9e3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 80px;
+    padding: 80px;
+    max-width: 100%;
+  }
+  
+  .card {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.2s;
+    width: 325px;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .card img {
+    width: 160px;
+    height: 160px;
+    display: block;
+    padding-left: 20px;
+    padding-top: 20px;
+    float: left;
+  }
+  
+  .card-content {
+    padding: 15px;
+    text-align: left;
+  }
+  
+  .card-content h3 {
+    margin: 0 0 10px;
+    margin-left: 175px;
+    font-size: 27px;
+    font-style: italic;
+    font-weight: 700;
+    font-family: "inter";
+    text-align: center;
+    padding-top: 60px;
+  }
+  
+  .card-content p {
+    margin: 0 0 10px;
+    font-size: 30px;
+    font-weight: 100;
+    font-family: "inter";
+    color: #555;
+    margin-left: 8px;
+  }
+
+  .card-content .norm {
+    padding-top: 80px
+  }
+
+  .card-content .tab {
+    padding-top: 48px
+  }
+  
+  .card-content a {
+    font-size: 15px;
+    text-decoration: none;
+    color: #555;
+    font-style: italic;
+    margin-left: 190px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .card-content a:hover {
+    text-decoration: underline;
+  }
 
 .footer {
     width: 100%;
