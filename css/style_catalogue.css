@@ -40,7 +40,6 @@ body {
         flex-direction: row;
         align-items: flex-end;
         justify-content: flex-end;
-        gap: 8px;
     }
             .navigation-pill {
                 border-radius: 8px;
