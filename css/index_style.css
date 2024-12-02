@@ -69,6 +69,7 @@ body {
 .background{
     position: relative;
     display: inline-block;
+    width: 100%;
 
 }
 
