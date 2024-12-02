@@ -82,7 +82,6 @@ h1 {
     margin-left: auto;
     margin-right: auto;
     width: 6em ;
-    padding-top: 100px;
 
     
 }    
@@ -95,14 +94,6 @@ h1 {
         
     }
 
-    .form-container {
-        max-width: 400px;
-        margin: 50px auto;
-        padding: 20px;
-        background-color: #e8f5f5;
-        border-radius: 8px;
-        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-    }
     
     .form-header {
         text-align: center;
@@ -112,65 +103,91 @@ h1 {
     h1 {
         font-size: 24px;
         font-weight: bold;
+        margin-top: 200px;
     }
     
-    label {
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+        background-color: #c6e7e7;
+    }
+    
+    /* Form Container */
+    .form-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+    
+    /* Form Styling */
+    .registration-form {
+        background-color: #e8f5f5;
+        padding: 40px;
+        border-radius: 8px;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        width: 100%;
+        max-width: 400px;
+        text-align: left;
+    }
+    
+    .registration-form label {
         display: block;
         margin-bottom: 8px;
         font-size: 14px;
-        margin-left: 550px;
+        font-weight: bold;
     }
     
-    input[type="email"], input[type="password"] {
-        width: 30%;
+    .registration-form input[type="email"],
+    .registration-form input[type="password"] {
+        width: 100%;
         padding: 10px;
-        margin-bottom: 20px;
+        margin-bottom: 10px;
         border: 1px solid #ccc;
         border-radius: 5px;
         font-size: 14px;
-        margin-left: 550px;
     }
     
-    small {
+    .registration-form small {
         display: block;
-        margin-bottom: 10px;
+        margin-bottom: 20px;
         color: #555;
-        margin-left: 550px;
+        font-size: 12px;
     }
     
     .checkbox-container {
         display: flex;
         align-items: center;
-        gap: 8px;
+        gap: 10px;
         margin-bottom: 20px;
-        margin-left: 350px;
     }
     
-    .form-buttons {
+    /* Buttons */
+    .button-container {
         display: flex;
         justify-content: space-between;
     }
     
     button {
-        padding: 10px 10px;
+        padding: 10px 20px;
         font-size: 14px;
         border: none;
         border-radius: 5px;
         cursor: pointer;
-        margin: auto;
-        margin-top: 100px;
     }
     
     .back-button {
         background-color: #e0f0f0;
         color: #000;
+        border: 1px solid #ccc;
     }
     
     .submit-button {
         background-color: #5b92b6;
         color: #fff;
     }
-    
+
 /*Footer*/
 
 .footer {
