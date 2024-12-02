@@ -69,7 +69,6 @@ body {
 .background{
     position: relative;
     display: inline-block;
-    width: 100%;
 
 }
 
@@ -102,7 +101,7 @@ body {
     }
 
 .background img{
-    width: 100%;
+    min-width: 100%;
     height: auto;
     display: block;
 
