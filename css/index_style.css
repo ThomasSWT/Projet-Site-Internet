@@ -1,14 +1,18 @@
+
 body {
     margin: 0;
+    padding: 0;
     line-height: normal;
     font-family:'Inter';
     width: 100%;
+    font-family: 'Inter', sans-serif;
+    background-color: #fff4ca;
     }
     
 /* Header */
 .header {
-    position: relative;
-    background-color: rgba(244, 219, 92, 0.5);
+    position: relative; 
+    background-color: rgba(244, 219, 92,);
     border-bottom: 1px solid #d9d9d9;
     box-sizing: border-box;
     height: 104px;
@@ -25,6 +29,7 @@ body {
     font-size: 16px;
     color: #1e1e1e;
 }
+
 
 .logo-icon {
     width: 89px;
@@ -60,25 +65,49 @@ body {
         } 
 
 /* Main */
-.hero-image {
-    width: 100%;
+
+.background{
     position: relative;
-    height: 920px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 160px 24px;
-    box-sizing: border-box;
-    background-image: url('Hero Image.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: top;
-    text-align: center;
-    font-size: 72px;
-    color: #000;
-    font-family: Inter;
+    display: inline-block;
+
 }
+
+.main_tittle{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    white-space: nowrap;
+}
+
+    .main_tittle h1{
+        color: #000;
+        text-align: center;
+        font-family: "Inter";
+        font-size: 70px;
+        font-weight: bolder;
+        text-shadow: #959595 10px 0 20px;
+        margin-bottom: 3px;
+    }
+
+    .main_tittle h2{
+        color: #000;
+        text-align: center;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        text-shadow: #959595 10px 0 20px;
+    }
+
+.background img{
+    width: 100%;
+    height: auto;
+    display: block;
+
+}
+
+
 /*Catalogue*/
 .heading {
     align-self: stretch;
@@ -95,6 +124,24 @@ body {
             color: #757575;
         }
        
+.card-grid-image {
+    width: 100%;
+    position: relative;
+    background-color: #fff4ca;
+    height: 1024px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 64px;
+    box-sizing: border-box;
+    gap: 48px;
+    text-align: left;
+    font-size: 24px;
+    color: #1e1e1e;
+    font-family: "Inter";
+ }
+
 .line_cards {
     align-self: stretch;
     border-radius: 15px;
@@ -123,6 +170,7 @@ body {
     padding: 24px;
     gap: 24px;
     min-width: 240px;
+    
 }
         .card_text{
             align-self: stretch;
@@ -137,23 +185,7 @@ body {
             height: 40px;
             display: none;
         }
-        .card-grid-image {
-            width: 100%;
-            position: relative;
-            background-color: #fff4ca;
-            height: 1024px;
-            display: flex;
-            flex-direction: column;
-            align-items: flex-start;
-            justify-content: flex-start;
-            padding: 64px;
-            box-sizing: border-box;
-            gap: 48px;
-            text-align: left;
-            font-size: 24px;
-            color: #1e1e1e;
-            font-family: "Inter";
-        }
+
 
 /*Avis*/
 .text-heading1 {
@@ -281,7 +313,7 @@ body {
     text-align: left;
     font-size: 24px;
     color: #1e1e1e;
-    font-family: Inter;
+    font-family: "Inter";
 }
 
 /*Footer*/
@@ -338,6 +370,7 @@ body {
     justify-content: flex-start;
     gap: 12px;
     z-index: 1;
+    font-weight: bold;
 }
 
         .mentions-tittle {
@@ -347,6 +380,7 @@ body {
             align-items: flex-start;
             justify-content: flex-start;
             padding: 0px 0px 16px;
+            font-weight: bold;
         }
 
             .text-strong {
@@ -366,7 +400,7 @@ body {
         }
 
         .list-item {
-            width: 250px;
+            width: 300px;
             position: relative;
             font-size: 16px;
             line-height: 140%;
@@ -392,6 +426,8 @@ body {
     justify-content: flex-start;
     gap: 12px;
     z-index: 2;
+    font-weight: bold;
+
 }
 .contact {
     width: 282px;
@@ -405,5 +441,122 @@ body {
     justify-content: flex-start;
     gap: 12px;
     z-index: 3;
+    font-weight: bold;
+
 }
 
+/*Responsive*/
+
+@media (min-width: 2560px) {
+    .background img{
+        width: 2560px;
+        height: auto;
+        display: block;
+    }
+
+    .main_tittle h1{
+        font-size: 150px;
+    }
+
+    .main_tittle h2{
+        font-size: 63px;
+    }
+
+    .card-grid-image {
+        height: auto;
+     }
+
+    .line_cards {
+        height: auto;
+    }
+    
+    .card {
+        width: 675px;        
+    }
+}
+
+
+@media (max-width: 768px) {
+    .background img{
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .main_tittle h1{
+        font-size: 8vw;
+    }
+
+    .main_tittle h2{
+        font-size: 3vw;
+    }
+
+    .card-grid-image {
+        height: auto;
+     }
+
+    .line_cards {
+        height: auto;
+    }
+    
+    .card {
+        width: 675px;        
+    }
+}
+
+@media (max-width: 425px) {
+
+    .header {
+        position: relative; 
+        background-color: rgba(244, 219, 92,);
+        border-bottom: 1px solid #d9d9d9;
+        box-sizing: border-box;
+        height:auto;
+        overflow: hidden;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        flex-wrap:nowrap;
+        align-content: center;
+        padding: 10px;
+        gap: 0px 14px;
+        text-align: left;
+        font-size: 10px;
+        color: #1e1e1e;
+    }
+
+    .navigation-pill-list {
+        flex: 1;
+        height: 20px;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+        justify-content: flex-end;
+    }
+            .navigation-pill {
+                border-radius: 8px;
+                background-color: #fff;
+                align-items: center;
+                justify-content: center;
+                padding: 4px;
+            }
+  
+    .logo-icon {
+        height: 60px;
+    }
+
+    .background img{
+        width: 100%;
+        height: 550px;
+        display: block;
+    }
+
+    .main_tittle h1{
+        font-size: 8vw;
+    }
+
+    .main_tittle h2{
+        font-size: 3vw;
+    }
+}
