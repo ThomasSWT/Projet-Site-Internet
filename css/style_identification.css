@@ -54,13 +54,15 @@ body {
             justify-content: center;
             padding: 8px;
         }
-        .navigation-pill-list :hover {
+        .navigation-pill:hover {
             background-color: #c9c9c9;
         }
         .title3 {
             position: relative;
             line-height: 100%;
             opacity: 0.86;
+            text-decoration: none;
+            color: #000;
         } 
 
 /* Main */
