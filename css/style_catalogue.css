@@ -288,7 +288,7 @@ body {
     z-index: 3;
 }
 
-@media (max-width: 426px) {
+@media (max-width: 500px) {
 
     .header {
   height: 180px;
