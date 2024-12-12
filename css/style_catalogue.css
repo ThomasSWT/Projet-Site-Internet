@@ -5,62 +5,58 @@ body {
     }
 
 .header {
-        width: 100%;
-        position: relative;
-        background-color: rgba(184, 91, 176, 0.5);
-        border-bottom: 1px solid #d9d9d9;
-        box-sizing: border-box;
-        height: 104px;
-        overflow: hidden;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: flex-start;
-        flex-wrap: wrap;
-        align-content: center;
-        padding: 32px;
-        gap: 0px 24px;
-        text-align: left;
-        font-size: 16px;
-        color: #1e1e1e;
-    }
-    
-    .logo-icon {
-        width: 89px;
-        position: relative;
-        border-radius: 50.5px;
-        height: 89px;
-        object-fit: cover;
-    }
-    
-  .navigation-pill-list {
-        flex: 1;
-        height: 32px;
-        display: flex;
-        flex-direction: row;
-        align-items: flex-end;
-        justify-content: flex-end;
-        gap: 8px;
-    }
-            .navigation-pill {
-                border-radius: 8px;
-                background-color: #fff;
-                display: flex;
-                flex-direction: row;
-                align-items: center;
-                justify-content: center;
-                padding: 8px;
-            }
-            .navigation-pill-list :hover {
-                background-color: #c9c9c9;
-            }
-            .title3 {
-                position: relative;
-                line-height: 100%;
-                opacity: 0.86;
-                color: #000;
-            }
+    position: relative; 
+    background-color: rgba(184, 91, 176, 0.5);
+    border-bottom: 1px solid #d9d9d9;
+    box-sizing: border-box;
+    height: 104px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-content: center;
+    padding: 32px;
+    gap: 0px 14px;
+    text-align: left;
+    font-size: 16px;
+    color: #1e1e1e;
+}
 
+
+.logo-icon {
+    width: 89px;
+    position: relative;
+    border-radius: 50.5px;
+    height: 89px;
+    object-fit: cover;
+}
+
+.navigation-pill-list {
+    flex: 1;
+    height: 32px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+        .navigation-pill {
+            border-radius: 8px;
+            background-color: #fff;
+            align-items: center;
+            justify-content: center;
+            padding: 8px;
+        }
+        .navigation-pill:hover {
+            background-color: #c9c9c9;
+        }
+        .title3 {
+            position: relative;
+            line-height: 100%;
+            color: rgba(0, 0, 0, 0.75);
+            text-decoration: none;
+        }
 
 .hero-image {
                 width: 100%;
