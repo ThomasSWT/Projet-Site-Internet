@@ -60,24 +60,24 @@ body {
           text-decoration: none;
       }
 
-.hero-image {
-              width: 100%;
-              position: relative;
-              height: 325px;
-              display: flex;
-              flex-direction: column;
-              align-items: center;
-              justify-content: center;
-              padding: 160px 24px;
-              box-sizing: border-box;
-              background-size: cover;
-              background-repeat: no-repeat;
-              background-position: center;
-              text-align: center;
-              font-size: 35px;
-              font-weight: bold;
-              color: #000;
-              font-family: Inter;
+      .hero-image {
+        width: 100%;
+        position: relative;
+        height: 325px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 160px 24px;
+        box-sizing: border-box;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        text-align: center;
+        font-size: 35px;
+        font-weight: bold;
+        color: #000;
+        font-family: Inter;
 }
 
 .gallery {
@@ -286,21 +286,65 @@ min-height: 100vh;
   z-index: 3;
 }
 
-@media (max-width: 500px) {
+@media (min-width: 2560px) {
+  .hero-image{
+      width: 2560px;
+      height: auto;
+      display: block;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .hero-image{
+      width: 100%;
+      height: auto;
+      display: block;
+  }
+}
+
+@media (max-width: 426px) {
 
   .header {
-height: 180px;
-}
-.navigation-pill-list {
-flex-direction: column;
-padding-top: 110px;
-}
+      position: relative; 
+      border-bottom: 1px solid #d9d9d9;
+      box-sizing: border-box;
+      height:auto;
+      overflow: hidden;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: flex-start;
+      flex-wrap:nowrap;
+      align-content: center;
+      padding: 10px;
+      gap: 0px 14px;
+      text-align: left;
+      font-size: 10px;
+      color: #1e1e1e;
+  }
+
+  .navigation-pill-list {
+      flex: 1;
+      height: 20px;
+      display: flex;
+      flex-direction: row;
+      align-items: flex-end;
+      justify-content: flex-end;
+  }
+          .navigation-pill {
+              border-radius: 8px;
+              background-color: #fff;
+              align-items: center;
+              justify-content: center;
+              padding: 4px;
+          }
 
   .logo-icon {
       height: 60px;
   }
 
-  .hero-image {
+  .hero-image{
       width: 100%;
       height: 550px;
       display: block;
