@@ -9,10 +9,7 @@ body {
     background-color: #fff4ca;
     }
 
-a {
-    text-decoration: none,
-        }
-    
+
 /* Header */
 .header {
     position: relative; 
@@ -412,6 +409,7 @@ a {
             color: #fff;
             text-align: left;
             display: inline-block;
+            text-decoration: none;
         }
 
         .list :hover {
