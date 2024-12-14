@@ -412,6 +412,11 @@ body {
             text-decoration: none;
         }
 
+        .list-item a {
+            text-decoration: none;
+        }
+            
+
         .list :hover {
             color: rgba(244, 219, 92, 0.5)
         }
