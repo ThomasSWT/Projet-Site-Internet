@@ -8,6 +8,10 @@ body {
     font-family: 'Inter', sans-serif;
     background-color: #fff4ca;
     }
+
+a {
+    text-decoration: none,
+        }
     
 /* Header */
 .header {
