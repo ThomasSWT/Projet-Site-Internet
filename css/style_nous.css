@@ -290,14 +290,14 @@ flex-shrink: 0;
     }
 
     .container {
-        flex-direction: column; /* Passe en disposition verticale */
-        gap: 35px; /* Réduit l’espacement */
+        flex-direction: column;
+        gap: 35px; 
         background-color: #f2e1cb;
       }
     
       .box {
-        width: 70%; /* Prend presque toute la largeur de l’écran */
-        margin: 0 auto; /* Centre les blocs */
+        width: 70%; 
+        margin: 0 auto; 
         height: 250px;
         text-align: center;
         font-size: 30px;
@@ -309,8 +309,8 @@ flex-shrink: 0;
     }
 
     .infos {
-        width: 70%; /* Prend presque toute la largeur de l’écran */
-        margin: 0 auto; /* Centre les blocs */
+        width: 70%;
+        margin: 0 auto;
         height: 250px;
         text-align: center;
         font-size: 30px;
