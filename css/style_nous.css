@@ -58,11 +58,13 @@ body {
     background-color: #c9c9c9;
 }
        
-.title3 {
-    position: relative;
-    line-height: 100%;
-    opacity: 0.86;
-} 
+ .title3 {
+            position: relative;
+            line-height: 100%;
+            opacity: 0.86;
+            text-decoration: none;
+            color: #000;
+        } 
 
 .main{
     width: 100%;
