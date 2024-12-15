@@ -258,7 +258,13 @@ min-height: 100vh;
           color: #fff;
           text-align: left;
           display: inline-block;
-      }
+          text-decoration: none;
+        }
+
+        .list-item a {
+            text-decoration: none;
+            color: #fff;
+        }
 
       .list :hover {
           color: rgba(244, 219, 92, 0.5)
