@@ -312,7 +312,7 @@ h1 {
 
     .header {
         position: relative; 
-        background-color: #bee4de;
+        background-color: #bee4de ;
         border-bottom: 1px solid #d9d9d9;
         box-sizing: border-box;
         height:auto;
