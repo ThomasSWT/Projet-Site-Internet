@@ -44,25 +44,25 @@ body {
     gap: 8px;
 }
      
-.navigation-pill {
-    border-radius: 8px;
-    background-color: #fff;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    padding: 8px;
-}
-       
-.navigation-pill-list :hover {
-    background-color: #c9c9c9;
-}
-       
-.title3 {
-    position: relative;
-    line-height: 100%;
-    opacity: 0.86;
-} 
+ .navigation-pill {
+            border-radius: 8px;
+            background-color: #fff;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            padding: 8px;
+        }
+        .navigation-pill:hover {
+            background-color: #c9c9c9;
+        }
+        .title3 {
+            position: relative;
+            line-height: 100%;
+            opacity: 0.86;
+            text-decoration: none;
+            color: #000;
+        } 
 
 .main{
     width: 100%;
